@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A49ECEF1CD5F1A600F05258 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A49ECEE1CD5F1A600F05258 /* iTunesArtwork@2x.png */; };
+		1A49ECF11CD5F46100F05258 /* BillAmountSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49ECF01CD5F46100F05258 /* BillAmountSession.swift */; };
 		1AC42BC31CD1A6260093A03E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC42BC21CD1A6260093A03E /* AppDelegate.swift */; };
-		1AC42BC51CD1A6260093A03E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC42BC41CD1A6260093A03E /* ViewController.swift */; };
+		1AC42BC51CD1A6260093A03E /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC42BC41CD1A6260093A03E /* TipViewController.swift */; };
 		1AC42BC81CD1A6260093A03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42BC61CD1A6260093A03E /* Main.storyboard */; };
 		1AC42BCA1CD1A6260093A03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42BC91CD1A6260093A03E /* Assets.xcassets */; };
 		1AC42BCD1CD1A6260093A03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42BCB1CD1A6260093A03E /* LaunchScreen.storyboard */; };
 		1AC42BD81CD1A6260093A03E /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC42BD71CD1A6260093A03E /* tipsTests.swift */; };
 		1AC42BE31CD1A6260093A03E /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC42BE21CD1A6260093A03E /* tipsUITests.swift */; };
+		1AC42BF11CD1AE5D0093A03E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC42BF01CD1AE5D0093A03E /* SettingsViewController.swift */; };
+		1AC42BF31CD1C9090093A03E /* PercentageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC42BF21CD1C9090093A03E /* PercentageSettings.swift */; };
+		1AC42BF51CD1EAAE0093A03E /* cog.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42BF41CD1EAAE0093A03E /* cog.png */; };
+		1AC42BF81CD1EB3C0093A03E /* cog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42BF61CD1EB3C0093A03E /* cog@2x.png */; };
+		1AC42BF91CD1EB3C0093A03E /* cog@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42BF71CD1EB3C0093A03E /* cog@3x.png */; };
+		1AC42BFE1CD1FB950093A03E /* WorkSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42BFC1CD1FB950093A03E /* WorkSans-Light.otf */; };
+		1AC42BFF1CD1FB950093A03E /* WorkSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42BFD1CD1FB950093A03E /* WorkSans-Thin.otf */; };
+		1AC42C011CD1FC210093A03E /* WorkSans-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42C001CD1FC210093A03E /* WorkSans-ExtraLight.otf */; };
+		1AC42C031CD1FC2B0093A03E /* WorkSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AC42C021CD1FC2B0093A03E /* WorkSans-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AC42BBF1CD1A6260093A03E /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A49ECEE1CD5F1A600F05258 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		1A49ECF01CD5F46100F05258 /* BillAmountSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillAmountSession.swift; sourceTree = "<group>"; };
+		1AC42BBF1CD1A6260093A03E /* Emotips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC42BC21CD1A6260093A03E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AC42BC41CD1A6260093A03E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AC42BC41CD1A6260093A03E /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		1AC42BC71CD1A6260093A03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AC42BC91CD1A6260093A03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AC42BCC1CD1A6260093A03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AC42BCE1CD1A6260093A03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AC42BD31CD1A6260093A03E /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC42BD31CD1A6260093A03E /* Emotips.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emotips.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC42BD71CD1A6260093A03E /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
 		1AC42BD91CD1A6260093A03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AC42BDE1CD1A6260093A03E /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC42BDE1CD1A6260093A03E /* Emotips.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emotips.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC42BE21CD1A6260093A03E /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		1AC42BE41CD1A6260093A03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC42BF01CD1AE5D0093A03E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1AC42BF21CD1C9090093A03E /* PercentageSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentageSettings.swift; sourceTree = "<group>"; };
+		1AC42BF41CD1EAAE0093A03E /* cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cog.png; sourceTree = "<group>"; };
+		1AC42BF61CD1EB3C0093A03E /* cog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog@2x.png"; sourceTree = "<group>"; };
+		1AC42BF71CD1EB3C0093A03E /* cog@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog@3x.png"; sourceTree = "<group>"; };
+		1AC42BFC1CD1FB950093A03E /* WorkSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Light.otf"; sourceTree = "<group>"; };
+		1AC42BFD1CD1FB950093A03E /* WorkSans-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Thin.otf"; sourceTree = "<group>"; };
+		1AC42C001CD1FC210093A03E /* WorkSans-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraLight.otf"; sourceTree = "<group>"; };
+		1AC42C021CD1FC2B0093A03E /* WorkSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +109,9 @@
 		1AC42BC01CD1A6260093A03E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1AC42BBF1CD1A6260093A03E /* tips.app */,
-				1AC42BD31CD1A6260093A03E /* tipsTests.xctest */,
-				1AC42BDE1CD1A6260093A03E /* tipsUITests.xctest */,
+				1AC42BBF1CD1A6260093A03E /* Emotips.app */,
+				1AC42BD31CD1A6260093A03E /* Emotips.xctest */,
+				1AC42BDE1CD1A6260093A03E /* Emotips.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +119,17 @@
 		1AC42BC11CD1A6260093A03E /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				1AC42BFB1CD1FAD90093A03E /* Fonts */,
+				1AC42BFA1CD1FAD30093A03E /* Images */,
+				1AC42BC41CD1A6260093A03E /* TipViewController.swift */,
+				1AC42BF01CD1AE5D0093A03E /* SettingsViewController.swift */,
 				1AC42BC21CD1A6260093A03E /* AppDelegate.swift */,
-				1AC42BC41CD1A6260093A03E /* ViewController.swift */,
 				1AC42BC61CD1A6260093A03E /* Main.storyboard */,
 				1AC42BC91CD1A6260093A03E /* Assets.xcassets */,
 				1AC42BCB1CD1A6260093A03E /* LaunchScreen.storyboard */,
 				1AC42BCE1CD1A6260093A03E /* Info.plist */,
+				1AC42BF21CD1C9090093A03E /* PercentageSettings.swift */,
+				1A49ECF01CD5F46100F05258 /* BillAmountSession.swift */,
 			);
 			path = tips;
 			sourceTree = "<group>";
@@ -125,12 +152,34 @@
 			path = tipsUITests;
 			sourceTree = "<group>";
 		};
+		1AC42BFA1CD1FAD30093A03E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1A49ECEE1CD5F1A600F05258 /* iTunesArtwork@2x.png */,
+				1AC42BF41CD1EAAE0093A03E /* cog.png */,
+				1AC42BF61CD1EB3C0093A03E /* cog@2x.png */,
+				1AC42BF71CD1EB3C0093A03E /* cog@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1AC42BFB1CD1FAD90093A03E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1AC42C021CD1FC2B0093A03E /* WorkSans-Regular.otf */,
+				1AC42BFC1CD1FB950093A03E /* WorkSans-Light.otf */,
+				1AC42C001CD1FC210093A03E /* WorkSans-ExtraLight.otf */,
+				1AC42BFD1CD1FB950093A03E /* WorkSans-Thin.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1AC42BBE1CD1A6260093A03E /* tips */ = {
+		1AC42BBE1CD1A6260093A03E /* Emotips */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AC42BE71CD1A6260093A03E /* Build configuration list for PBXNativeTarget "tips" */;
+			buildConfigurationList = 1AC42BE71CD1A6260093A03E /* Build configuration list for PBXNativeTarget "Emotips" */;
 			buildPhases = (
 				1AC42BBB1CD1A6260093A03E /* Sources */,
 				1AC42BBC1CD1A6260093A03E /* Frameworks */,
@@ -140,14 +189,14 @@
 			);
 			dependencies = (
 			);
-			name = tips;
+			name = Emotips;
 			productName = tips;
-			productReference = 1AC42BBF1CD1A6260093A03E /* tips.app */;
+			productReference = 1AC42BBF1CD1A6260093A03E /* Emotips.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1AC42BD21CD1A6260093A03E /* tipsTests */ = {
+		1AC42BD21CD1A6260093A03E /* EmotipsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AC42BEA1CD1A6260093A03E /* Build configuration list for PBXNativeTarget "tipsTests" */;
+			buildConfigurationList = 1AC42BEA1CD1A6260093A03E /* Build configuration list for PBXNativeTarget "EmotipsTests" */;
 			buildPhases = (
 				1AC42BCF1CD1A6260093A03E /* Sources */,
 				1AC42BD01CD1A6260093A03E /* Frameworks */,
@@ -158,14 +207,14 @@
 			dependencies = (
 				1AC42BD51CD1A6260093A03E /* PBXTargetDependency */,
 			);
-			name = tipsTests;
+			name = EmotipsTests;
 			productName = tipsTests;
-			productReference = 1AC42BD31CD1A6260093A03E /* tipsTests.xctest */;
+			productReference = 1AC42BD31CD1A6260093A03E /* Emotips.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1AC42BDD1CD1A6260093A03E /* tipsUITests */ = {
+		1AC42BDD1CD1A6260093A03E /* EmotipsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AC42BED1CD1A6260093A03E /* Build configuration list for PBXNativeTarget "tipsUITests" */;
+			buildConfigurationList = 1AC42BED1CD1A6260093A03E /* Build configuration list for PBXNativeTarget "EmotipsUITests" */;
 			buildPhases = (
 				1AC42BDA1CD1A6260093A03E /* Sources */,
 				1AC42BDB1CD1A6260093A03E /* Frameworks */,
@@ -176,9 +225,9 @@
 			dependencies = (
 				1AC42BE01CD1A6260093A03E /* PBXTargetDependency */,
 			);
-			name = tipsUITests;
+			name = EmotipsUITests;
 			productName = tipsUITests;
-			productReference = 1AC42BDE1CD1A6260093A03E /* tipsUITests.xctest */;
+			productReference = 1AC42BDE1CD1A6260093A03E /* Emotips.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +242,7 @@
 				TargetAttributes = {
 					1AC42BBE1CD1A6260093A03E = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 37DYT3VE83;
 					};
 					1AC42BD21CD1A6260093A03E = {
 						CreatedOnToolsVersion = 7.3;
@@ -204,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1AC42BBA1CD1A6260093A03E /* Build configuration list for PBXProject "tips" */;
+			buildConfigurationList = 1AC42BBA1CD1A6260093A03E /* Build configuration list for PBXProject "Emotips" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +267,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1AC42BBE1CD1A6260093A03E /* tips */,
-				1AC42BD21CD1A6260093A03E /* tipsTests */,
-				1AC42BDD1CD1A6260093A03E /* tipsUITests */,
+				1AC42BBE1CD1A6260093A03E /* Emotips */,
+				1AC42BD21CD1A6260093A03E /* EmotipsTests */,
+				1AC42BDD1CD1A6260093A03E /* EmotipsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +279,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC42BFF1CD1FB950093A03E /* WorkSans-Thin.otf in Resources */,
+				1AC42BF81CD1EB3C0093A03E /* cog@2x.png in Resources */,
+				1A49ECEF1CD5F1A600F05258 /* iTunesArtwork@2x.png in Resources */,
+				1AC42BF91CD1EB3C0093A03E /* cog@3x.png in Resources */,
 				1AC42BCD1CD1A6260093A03E /* LaunchScreen.storyboard in Resources */,
+				1AC42C031CD1FC2B0093A03E /* WorkSans-Regular.otf in Resources */,
+				1AC42C011CD1FC210093A03E /* WorkSans-ExtraLight.otf in Resources */,
 				1AC42BCA1CD1A6260093A03E /* Assets.xcassets in Resources */,
+				1AC42BFE1CD1FB950093A03E /* WorkSans-Light.otf in Resources */,
 				1AC42BC81CD1A6260093A03E /* Main.storyboard in Resources */,
+				1AC42BF51CD1EAAE0093A03E /* cog.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AC42BC51CD1A6260093A03E /* ViewController.swift in Sources */,
+				1AC42BC51CD1A6260093A03E /* TipViewController.swift in Sources */,
+				1A49ECF11CD5F46100F05258 /* BillAmountSession.swift in Sources */,
 				1AC42BC31CD1A6260093A03E /* AppDelegate.swift in Sources */,
+				1AC42BF31CD1C9090093A03E /* PercentageSettings.swift in Sources */,
+				1AC42BF11CD1AE5D0093A03E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +343,12 @@
 /* Begin PBXTargetDependency section */
 		1AC42BD51CD1A6260093A03E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1AC42BBE1CD1A6260093A03E /* tips */;
+			target = 1AC42BBE1CD1A6260093A03E /* Emotips */;
 			targetProxy = 1AC42BD41CD1A6260093A03E /* PBXContainerItemProxy */;
 		};
 		1AC42BE01CD1A6260093A03E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1AC42BBE1CD1A6260093A03E /* tips */;
+			target = 1AC42BBE1CD1A6260093A03E /* Emotips */;
 			targetProxy = 1AC42BDF1CD1A6260093A03E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,10 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chengyinliu.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengyinliu.emotips;
+				PRODUCT_NAME = Emotips;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chengyinliu.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengyinliu.emotips;
+				PRODUCT_NAME = Emotips;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -426,8 +493,8 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chengyinliu.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = Emotips;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emotips.app/Emotips";
 			};
 			name = Debug;
 		};
@@ -438,8 +505,8 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chengyinliu.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = Emotips;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emotips.app/Emotips";
 			};
 			name = Release;
 		};
@@ -449,7 +516,7 @@
 				INFOPLIST_FILE = tipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chengyinliu.tipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Emotips;
 				TEST_TARGET_NAME = tips;
 			};
 			name = Debug;
@@ -460,7 +527,7 @@
 				INFOPLIST_FILE = tipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chengyinliu.tipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Emotips;
 				TEST_TARGET_NAME = tips;
 			};
 			name = Release;
@@ -468,7 +535,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AC42BBA1CD1A6260093A03E /* Build configuration list for PBXProject "tips" */ = {
+		1AC42BBA1CD1A6260093A03E /* Build configuration list for PBXProject "Emotips" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AC42BE51CD1A6260093A03E /* Debug */,
@@ -477,29 +544,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1AC42BE71CD1A6260093A03E /* Build configuration list for PBXNativeTarget "tips" */ = {
+		1AC42BE71CD1A6260093A03E /* Build configuration list for PBXNativeTarget "Emotips" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AC42BE81CD1A6260093A03E /* Debug */,
 				1AC42BE91CD1A6260093A03E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1AC42BEA1CD1A6260093A03E /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
+		1AC42BEA1CD1A6260093A03E /* Build configuration list for PBXNativeTarget "EmotipsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AC42BEB1CD1A6260093A03E /* Debug */,
 				1AC42BEC1CD1A6260093A03E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1AC42BED1CD1A6260093A03E /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
+		1AC42BED1CD1A6260093A03E /* Build configuration list for PBXNativeTarget "EmotipsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AC42BEE1CD1A6260093A03E /* Debug */,
 				1AC42BEF1CD1A6260093A03E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

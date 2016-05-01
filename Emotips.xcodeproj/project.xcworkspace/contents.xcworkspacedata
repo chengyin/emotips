@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tips.xcodeproj">
+      location = "self:/Users/chengyin_liu/dev/tips/emotips/Emotips.xcodeproj">
    </FileRef>
 </Workspace>
